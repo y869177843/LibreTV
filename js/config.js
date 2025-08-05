@@ -175,7 +175,6 @@ const API_SITES = {
            name: 'U酷资源'
        },
 };    
-};
 
 // 定义合并方法
 function extendAPISites(newSites) {
