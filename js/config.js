@@ -119,6 +119,62 @@ const API_SITES = {
         name: '空内容测试源',
         adult: true
     },
+       ckzy: {
+           api: 'https://ckzy.me/api.php/provide/vod',
+           name: 'CK资源',
+           adult: true
+       },
+       jkun: {
+           api: 'https://jkunzyapi.com/api.php/provide/vod',
+           name: 'jkun资源',
+           adult: true
+       },
+       bwzy: {
+           api: 'https://api.bwzyz.com/api.php/provide/vod',
+           name: '百万资源',
+           adult: true
+       },
+       souav: {
+           api: 'https://api.souavzy.vip/api.php/provide/vod',
+           name: 'souav资源',
+           adult: true
+       },
+       r155: {
+           api: 'https://155api.com/api.php/provide/vod/',
+           name: '155资源',
+           adult: true
+       },
+       lsb: {
+           api: 'https://apilsbzy1.com/api.php/provide/vod/',
+           name: 'lsb资源',
+           adult: true
+       },
+       huangcang: {
+           api: 'https://hsckzy888.com/api.php/provide/vod/',
+           name: '黄色仓库',
+           adult: true,
+           detail: 'https:  hsckzy.vip'
+       },
+       yutu: {
+           api: 'https://yutuzy10.com/api.php/provide/vod/',
+           name: '玉兔资源',
+           adult: true
+       },
+
+     //下面是资源失效率高的API源，不建议使用
+       subo: {
+           api: 'https://subocaiji.com/api.php/provide/vod',
+           name: '速播资源'
+       },
+       fczy: {
+           api: 'https://api.fczy888.me/api.php/provide/vod',
+           name: '蜂巢资源'
+       },
+       ukzy: {
+           api: 'https://api.ukuapi88.com/api.php/provide/vod',
+           name: 'U酷资源'
+       },
+};    
 };
 
 // 定义合并方法
